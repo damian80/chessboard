@@ -1,0 +1,24 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.board {
+    width: 30vw;
+    border: 10px solid black;
+    margin: 50px auto;
+}
+
+
+span {
+    float: left;
+    width: 50%;
+    height: 15vw;
+
+}
+
+span:first-child,
+span:last-child {
+    background-color: #f00;
+}
